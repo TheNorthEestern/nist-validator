@@ -11,7 +11,7 @@ Once you have that out of the way, install the dependencies for this project. Fe
 # Usage
 
 ```bash
-$ cat <input_passwords> | ./password_validator <password_list>
+$ cat <input_passwords> | ./password_validator.py <password_list>
 ```
 
 # Example
