@@ -17,7 +17,7 @@ $ cat <input_passwords> | ./password_validator.py <password_list>
 # Example
 
 ```bash
-$ mkvirtualenv password_validator python=$(which python3)
+$ mkvirtualenv password_validator --python=$(which python3)
 $ pip install -r requirements.txt
 $ chmod +x password_validator.py
 $ cat input_passwords.txt | ./password_validator.py weak_password_list.txt
